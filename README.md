@@ -34,10 +34,10 @@ Donde:
 - **Python:** Como lenguaje de programación principal.
 
 ## 🌐 **Enlace al Proyecto:**
-[El Poder de una Comunidad - La Fórmula Warketing](#) *(Reemplaza con el enlace a tu aplicación web)*
+[El Poder de una Comunidad - La Fórmula Warketing](https://formulawarketing.streamlit.app/)
 
 ## 🙋‍♂️ **Creado Por:**
 - **[kemeny.studio](http://kemeny.studio):** Desarrollo y conceptualización del proyecto.
 
 ## 📄 **Licencia:**
-Este proyecto está bajo la Licencia XYZ. *(Reemplaza con la licencia que elijas, si aplica)*
+Este proyecto está bajo la licencia MIT.
