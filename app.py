@@ -1,6 +1,10 @@
 import streamlit as st
 import networkx as nx
 import matplotlib.pyplot as plt
+import logging
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s")
+
 
 st.title('El Poder de una Comunidad')
 st.header   ('La Formula Warketing')
