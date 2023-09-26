@@ -4,6 +4,10 @@
 ## 🚀 **Descripción:**
 Este proyecto es una herramienta interactiva que utiliza la fórmula de combinaciones para visualizar el potencial de interacción dentro de una comunidad digital. Permite a influencers y marcas entender y maximizar el valor de sus comunidades en redes sociales, independientemente del tamaño.
 
+## 📚 **Contexto:**
+
+Este proyecto fue creado como parte de la iniciativa **[La Fórmula Warketing](https://www.linkedin.com/posts/warketing_el-poder-de-una-comunidad-robusta-y-solida-activity-7112052608076242945-Lm2q?utm_source=share&utm_medium=member_desktop)**, que buscan explorar el potencial de las matemáticas y la estadística en el mundo del marketing y las redes sociales creada por Sergio Gajardo ([@warketing](https://www.linkedin.com/in/warketing/)).
+
 ## 🌟 **Características:**
 - **Interactivo:** Facilita la introducción del número de seguidores y visualiza el potencial de interacciones únicas.
 - **Visualización de Red:** Permite visualizar las posibles conexiones y conversaciones dentro de la comunidad.
