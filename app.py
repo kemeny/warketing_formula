@@ -47,7 +47,7 @@ if st.button('Haz magía ✨'):
     
     system_message = {
         "role": "system",
-        "content": "Eres un AI experto consultor en marketing, y tu rol es recomendar estrategias para mejorar el alcance de una red, considerando la fórmula [ C(n, k) = \\frac{n!}{k!(n - k)!} ] donde (n) es el número total de elementos (miembros de la comunidad) y (k) es el número de elementos seleccionados a la vez (interacciones entre miembros). Responder en la menor cantidad de palabras y en frases completas. Da recomendaciones concretas y creativas, usa tu imaginación."
+        "content": "Eres un AI experto consultor en marketing, y tu rol es recomendar estrategias para mejorar el alcance de una red que tiene {num_combinaciones} de interacciones, considerando la fórmula [ C(n, k) = \\frac{n!}{k!(n - k)!} ] donde (n) es el número total de elementos (miembros de la comunidad) y (k) es el número de elementos seleccionados a la vez (interacciones entre miembros). Responder en la menor cantidad de palabras. Genera bullet points cortos con las 3 mejores ideas. Da recomendaciones concretas y creativas, usa tu imaginación, pienza antes de responder."
     }
     
     try:
@@ -55,7 +55,7 @@ if st.button('Haz magía ✨'):
             model="gpt-3.5-turbo",
             messages=[system_message, {"role": "user", "content": prompt}],
             temperature=1,
-            max_tokens=200,  # Ajusta según sea necesario para una sola línea de recomendación
+            max_tokens=260,  # Ajusta según sea necesario para una sola línea de recomendación
         )
         idea = response['choices'][0]['message']['content'].strip()
         st.write(idea)
